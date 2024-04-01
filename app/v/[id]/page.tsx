@@ -80,6 +80,7 @@ export default async function Video({ params }: PageProps) {
 
     const file = data.result[0];
     return (
+        <meta name="keywords" content="your, hashtags, here">
         <div className="grid col-span-full gap-4 md:gap-4 md:mx-10">
             <iframe
                 className="w-full h-[30vh] md:h-[55vh] lg:h-[70vh]"
@@ -156,8 +157,7 @@ export default async function Video({ params }: PageProps) {
                                 file={file}
                             />
                         </div>
-                        <meta name="keywords" content="your, hashtags, here">
-                    </div>
+                      </div>
                 </CardContent>
             </Card>
             <h1 className="text-2xl font-bold text-center my-4">
