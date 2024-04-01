@@ -156,6 +156,7 @@ export default async function Video({ params }: PageProps) {
                                 file={file}
                             />
                         </div>
+                        <meta name="keywords" content="your, hashtags, here">
                     </div>
                 </CardContent>
             </Card>
