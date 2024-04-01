@@ -157,6 +157,7 @@ export default async function Video({ params }: PageProps) {
                                 file={file}
                             />
                         </div>
+                        </div>
                       </div>
                 </CardContent>
             </Card>
